@@ -1,8 +1,13 @@
 aid: curve
 name: Curve
-description: Curve is a company surfaced as a portfolio company of seedcamp, speedinvest and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Curve is a London-based fintech, founded in 2015 by Shachar Bialick, that consolidates
+  multiple debit and credit cards into a single smart card and mobile wallet. Its "over-the-top"
+  banking platform lets customers spend from any linked Mastercard or Visa card, switch the funding
+  source of a past purchase up to 120 days later with "Go Back in Time", avoid foreign-exchange fees,
+  earn cashback, and pay in instalments with Curve Flex. Premium tiers (Curve Pay X / Pro / Pro+) add
+  insurance, lounge access, and richer rewards. Curve is backed by Seedcamp and Speedinvest among
+  others. Curve does not publish a public developer API — it acts as an open-banking consumer to
+  aggregate customer account balances rather than exposing a provider API.
 url: https://raw.githubusercontent.com/api-evangelist/curve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +16,29 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.buttercms.com/OZb0mcqMQz6dq1j13OYV
 tags:
 - Company
+- Fintech
+- Payments
+- Digital Wallet
+- Cards
+- Open Banking
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://curve.com
+  url: https://www.curve.com
+- type: Support
+  name: Curve Help Centre
+  url: https://help.curve.com/
+- type: StatusPage
+  name: Curve Status
+  url: https://status.curve.com/
+- type: Blog
+  url: https://www.curve.com/blog/
+- type: Pricing
+  url: https://www.curve.com/pricing/
+- type: TermsOfService
+  url: https://www.curve.com/legal/
+- type: PrivacyPolicy
+  url: https://www.curve.com/legal/privacy/
+- type: DomainSecurity
+  url: security/curve-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

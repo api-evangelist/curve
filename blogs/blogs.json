@@ -1,0 +1,14 @@
+{
+  "repo": "curve",
+  "feeds": [
+    {
+      "source": "https://status.curve.com/",
+      "feed_url": "https://status.curve.com/history.atom",
+      "title": "",
+      "saved": 3,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 3,
+  "fetched": "2026-07-20T13:31:34Z"
+}
