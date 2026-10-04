@@ -49,7 +49,7 @@ tags:
 - Digital Wallet
 - Cards
 - Open Banking
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fintech
@@ -58,6 +58,7 @@ tags_raw:
 - Cards
 - Open Banking
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
